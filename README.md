@@ -48,17 +48,6 @@ By adjusting the parameter blocks, this script can be optimized for either wide-
 | STAR\_REDUCE\_MODE | "shrink" | "shrink" or "remove" | Minimizing or eliminating overwhelming starfields allows the main nebula structure to stand out. |
 | SATURATION\_BOOST | 1.45 | 1.65 \~ 1.75 | Heightens saturation to reveal vibrant H-alpha (red) and OIII (blue-green) gaseous emissions. |
 
-### **🖼️ Processing Example**
-
-#### **Target: NGC 2024 Flame Nebula**
-
-* **Total Integration Time**: 1 Hour 42 Minutes  
-* **Tuning Strategy**: Cranked STRETCH\_FACTOR up to 28.0 and carefully balanced BLACK\_POINT\_PERCENTILE at 0.12 to drop the light-polluted grey background. This successfully carved out the intricate fiery lanes and dust structures of the Flame Nebula.
-
-*(Feel free to upload your before/after images here\!)*
-
-* **Before**: (Your original dark/un-stretched image)  
-* **After**: (Your successfully processed image showcasing the Flame Nebula)
 
 ### **📂 Auto-Generated Outputs**
 
@@ -116,17 +105,6 @@ python process\_astro\_v2.py
 | STAR\_REDUCE\_MODE | "shrink" | "shrink" 或 "remove" | 透過縮星或去星，防止漫天繁星淹沒了星雲主體的風采。 |
 | SATURATION\_BOOST | 1.45 | 1.65 \~ 1.75 | 提升飽和度，逼出 H-alpha (紅) 與 OIII (藍綠) 的鮮豔氣體色彩。 |
 
-### **🖼️ 處理範例**
-
-#### **目標：NGC 2024 火焰星雲 (Flame Nebula)**
-
-* **總曝光時間**：1 小時 42 分鐘  
-* **調校重點**：大幅拉高 STRETCH\_FACTOR 至 28.0，並將 BLACK\_POINT\_PERCENTILE 控制在 0.12 壓制光害灰底，成功讓火焰星雲的細節與暗條紋立體顯現。
-
-*(建議在此處附上你的對比圖，這會讓你的 Repo 變得超級吸引人！)*
-
-* **處理前 (Before)**：(放之前死黑那張)  
-* **處理後 (After)**：(放成功拉出來這張)
 
 ### **📂 自動輸出檔案清單**
 
